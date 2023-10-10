@@ -25,6 +25,8 @@ const processEntries = () => {
     }
 };
 
+
+
 document.addEventListener("DOMContentLoaded", () => {
     $("#calculate").addEventListener("click", processEntries);
     $("#miles").focus();
