@@ -22,7 +22,7 @@ do {
 }
 while ( isNaN(years) );
 
-// calulate future value
+// calculate future value (yearly)
 let futureValue = investment;
 for (let i = 1; i <= years; i++ ) {
     futureValue = futureValue + (futureValue * rate / 100);
