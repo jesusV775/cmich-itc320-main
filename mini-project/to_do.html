@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="to_do.css">
+</head>
+<body>
+    <main>
+        <h1>To Do List</h1>
+        <form id="new_task_form">
+			<input 
+				type="text" 
+				name="new_task_input" 
+				id="new_task_input" 
+				placeholder="Insert new task" />
+			<input 
+				type="submit"
+				id="new_task_submit" 
+				value="Add task" />
+		</form>
+
+        <section class="task-list">
+			<h2>Tasks</h2>
+
+			<div id="tasks">
+
+				<div class="task">
+					<div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							value="Take out trash"
+							readonly>
+					</div>
+				</div>
+
+				<div id="tasks">
+
+					<div class="task">
+						<div class="content">
+							<input 
+								type="text" 
+								class="text" 
+								value="Walk dog"
+								readonly>
+						</div>
+					</div>
+
+					<div id="tasks">
+
+						<div class="task">
+							<div class="content">
+								<input 
+									type="text" 
+									class="text" 
+									value="Clean plates"
+									readonly>
+							</div>
+						</div>
+
+						<div id="tasks">
+
+							<div class="task">
+								<div class="content">
+									<input 
+										type="text" 
+										class="text" 
+										value="Do homework"
+										readonly>
+								</div>
+							</div>
+
+							<div id="tasks">
+
+								<div class="task">
+									<div class="content">
+										<input 
+											type="text" 
+											class="text" 
+											value="Water plants"
+											readonly>
+									</div>
+								</div>
+
+			</div>
+		</section>
+        </main>
+    </main>
+    <script src="to_do.js"></script>
+</body>
+</html>

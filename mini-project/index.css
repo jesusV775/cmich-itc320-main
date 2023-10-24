@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightslategrey;
+    margin: 0 auto;
+    width: 400px;
+    border: 3px solid red;
+    padding: 0 2em 1em;
+}
+h1 {
+    color: red;
+    text-align: left;
+}
+label {
+    float: right;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+span {
+    color: red;
+}
